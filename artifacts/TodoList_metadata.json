@@ -4,7 +4,46 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "todoCompleted",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "todos",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -33,11 +72,11 @@
 	},
 	"sources": {
 		"TodoPractice.sol": {
-			"keccak256": "0x853b0e1a1cf8f2dfdcefe67fe81bbba8762da75c5775fd94b7ccf2e9b1ba099c",
+			"keccak256": "0x3e9c4f3924b32d150260f4be1daa00cfe0323f548385f7e888ed949dd8911927",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://75918838637af7e0c922ac9bcb6ea277d0fd08b1192c3c259453eb392d6aae39",
-				"dweb:/ipfs/Qmf2f4evywk4zKmLZSwWH5idzq5WNDgRch2kP5ctdsDY9u"
+				"bzz-raw://896150e291f6b2680c3a9c562d02fddb463c5adb20bb1b1344fdb05441ff324c",
+				"dweb:/ipfs/QmbMNF1HDZksfY3bs2X1VcGy9iNcxotNZVRe6NFAYvehfj"
 			]
 		}
 	},
