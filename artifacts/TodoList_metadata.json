@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"TodoPractice.sol": "TodoList"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"TodoPractice.sol": {
+			"keccak256": "0x853b0e1a1cf8f2dfdcefe67fe81bbba8762da75c5775fd94b7ccf2e9b1ba099c",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://75918838637af7e0c922ac9bcb6ea277d0fd08b1192c3c259453eb392d6aae39",
+				"dweb:/ipfs/Qmf2f4evywk4zKmLZSwWH5idzq5WNDgRch2kP5ctdsDY9u"
+			]
+		}
+	},
+	"version": 1
+}
