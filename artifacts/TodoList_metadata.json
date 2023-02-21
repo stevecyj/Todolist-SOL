@@ -6,6 +6,48 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [],
+				"name": "addTodo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "delTodo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getAllTodo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getAllTodoComplete",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getTodo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setCompleted",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "uint256",
@@ -51,7 +93,26 @@
 		},
 		"userdoc": {
 			"kind": "user",
-			"methods": {},
+			"methods": {
+				"addTodo()": {
+					"notice": "新增 todo"
+				},
+				"delTodo()": {
+					"notice": "刪除 todo"
+				},
+				"getAllTodo()": {
+					"notice": "查看所有 todo"
+				},
+				"getAllTodoComplete()": {
+					"notice": "查看所有 completed"
+				},
+				"getTodo()": {
+					"notice": "查看指定 todo"
+				},
+				"setCompleted()": {
+					"notice": "todo 改為 completed"
+				}
+			},
 			"version": 1
 		}
 	},
@@ -72,11 +133,11 @@
 	},
 	"sources": {
 		"TodoPractice.sol": {
-			"keccak256": "0x3e9c4f3924b32d150260f4be1daa00cfe0323f548385f7e888ed949dd8911927",
+			"keccak256": "0xbdd33cc2af9e2c7f27f0d07fc958da1b57e1591ba0b7a15b59bc06f3c4d70103",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://896150e291f6b2680c3a9c562d02fddb463c5adb20bb1b1344fdb05441ff324c",
-				"dweb:/ipfs/QmbMNF1HDZksfY3bs2X1VcGy9iNcxotNZVRe6NFAYvehfj"
+				"bzz-raw://144cc5535bce8782a897901d57f8df6db213f2de6587e45c9ba3d71d67ea87b1",
+				"dweb:/ipfs/QmUthExwTJxpCMdmpZmxjFagJJqsAR4z4KkEwo43ydth5d"
 			]
 		}
 	},

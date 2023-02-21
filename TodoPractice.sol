@@ -11,7 +11,7 @@ contract TodoList {
     /**
      * 新增 todo
      */
-    function addTodo() public {}
+    function addTodo(string todo) public {}
 
     /**
      * 刪除 todo
