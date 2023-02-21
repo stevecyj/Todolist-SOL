@@ -24,7 +24,9 @@ contract TodoList {
     /**
      * 查看指定 todo
      */
-    function getTodo() public {
+    function getTodo(uint256 index) public view returns (string memory) {
+        // 取得 todos 索引的資訊
+        return todos[index];
 
     }
 

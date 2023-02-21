@@ -40,10 +40,22 @@
 				"type": "function"
 			},
 			{
-				"inputs": [],
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "index",
+						"type": "uint256"
+					}
+				],
 				"name": "getTodo",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -112,7 +124,7 @@
 				"getAllTodoComplete()": {
 					"notice": "查看所有 completed"
 				},
-				"getTodo()": {
+				"getTodo(uint256)": {
 					"notice": "查看指定 todo"
 				},
 				"setCompleted()": {
@@ -139,11 +151,11 @@
 	},
 	"sources": {
 		"TodoPractice.sol": {
-			"keccak256": "0x6154e7163b107d071dfe00dd59840108a010ada11d3a3c19d6d8730f68ff6ee0",
+			"keccak256": "0x375c35d42e3a6b2fedcd00a9b2ea35edf6019c05dbde33d2ff5450c5780547d2",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://47ab1f9e575a3cdbe57d1731d68a430c6a405703f150eccfdddec6f28f1bada2",
-				"dweb:/ipfs/QmeqrBTa25g46vBiUa5i9n1fuDQQsRhj86CWp1JgeFBNUo"
+				"bzz-raw://7c966efe6205d19dba9eb89c80616b6f0fea0e8051def011d75530af22b239c8",
+				"dweb:/ipfs/QmXtK4fkaSHumnfbTPpoHGXXVETp22xeuN2sPCUBH3M798"
 			]
 		}
 	},
