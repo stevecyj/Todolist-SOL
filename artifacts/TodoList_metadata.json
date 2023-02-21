@@ -6,7 +6,13 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "todo",
+						"type": "string"
+					}
+				],
 				"name": "addTodo",
 				"outputs": [],
 				"stateMutability": "nonpayable",
@@ -94,7 +100,7 @@
 		"userdoc": {
 			"kind": "user",
 			"methods": {
-				"addTodo()": {
+				"addTodo(string)": {
 					"notice": "新增 todo"
 				},
 				"delTodo()": {
@@ -133,11 +139,11 @@
 	},
 	"sources": {
 		"TodoPractice.sol": {
-			"keccak256": "0xbdd33cc2af9e2c7f27f0d07fc958da1b57e1591ba0b7a15b59bc06f3c4d70103",
+			"keccak256": "0x6154e7163b107d071dfe00dd59840108a010ada11d3a3c19d6d8730f68ff6ee0",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://144cc5535bce8782a897901d57f8df6db213f2de6587e45c9ba3d71d67ea87b1",
-				"dweb:/ipfs/QmUthExwTJxpCMdmpZmxjFagJJqsAR4z4KkEwo43ydth5d"
+				"bzz-raw://47ab1f9e575a3cdbe57d1731d68a430c6a405703f150eccfdddec6f28f1bada2",
+				"dweb:/ipfs/QmeqrBTa25g46vBiUa5i9n1fuDQQsRhj86CWp1JgeFBNUo"
 			]
 		}
 	},
