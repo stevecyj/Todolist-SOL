@@ -3,15 +3,14 @@
 pragma solidity >= 0.8.4;
 
 contract Mapping {
-    mapping(uint256 => address) public nfts;
+    mapping(string => address) public nfts;
     uint256 counter = 0;
 
-    function ownerOf(uint256 _tokenId) public view returns (address) {
-        return nfts[_tokenId];
+    function ownerOf(string memory _name) public view returns (address) {
+        return nfts[_name];
     }
 
-    function mintNFT() public {
-        nfts[counter] = msg.sender;
-        counter++;
+    function mintNFT(string memory _name) public {
+        nfts[_name] = msg.sender;
     }
 }
