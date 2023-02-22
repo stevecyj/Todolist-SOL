@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-3.0
 
-pragma solidity >= 0.8.4;
+pragma solidity >=0.8.4;
 
 contract Struct {
     struct User {
@@ -11,7 +11,10 @@ contract Struct {
     User owner;
 
     constructor() {
-        owner = User(msg.sender, "JOJOworld");
+        owner = User({
+        name : "JOJOworld",
+        id : msg.sender
+        });
     }
 
     function getOwnerAddress() public view returns (address) {
