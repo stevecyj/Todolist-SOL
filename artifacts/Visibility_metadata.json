@@ -9,11 +9,11 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "x",
+						"name": "y",
 						"type": "uint256"
 					}
 				],
-				"name": "addOne",
+				"name": "calculate",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -66,11 +66,11 @@
 	},
 	"sources": {
 		"Visibility.sol": {
-			"keccak256": "0xc2d7fbe79be86bb90ac8f12dd36b119c9efad264b2becd5184f51691710f8030",
+			"keccak256": "0x9d3bed00a84353fa30841a902b8afebc529cb613ac96146c334df685168d8684",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://7a6b908d3f6307be4e21349221e54f3781cf09570abdfda315463c3521c08982",
-				"dweb:/ipfs/QmU9rXPPGFBaoGNq8vPPDqWJ5smbQe9LQD3LtZqe4nUvtP"
+				"bzz-raw://b3197592ba191bb44c11860a08491019358355a35f1c7463426101fdb1a104c9",
+				"dweb:/ipfs/QmWbouuQqTFvHV6eKFtNWjJEzThXubTnBxpqPUMwTHagQW"
 			]
 		}
 	},
