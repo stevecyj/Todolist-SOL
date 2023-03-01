@@ -6,6 +6,25 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					}
+				],
+				"name": "addOne",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "coreFunction",
 				"outputs": [
@@ -47,11 +66,11 @@
 	},
 	"sources": {
 		"Visibility.sol": {
-			"keccak256": "0x5e851f6d88d6a8849997b605b74fb9f11ef6f574cc9bc4dd76ff06607d5c0c7a",
+			"keccak256": "0xc2d7fbe79be86bb90ac8f12dd36b119c9efad264b2becd5184f51691710f8030",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://25a602a367acda1d9c6d6a60dac60c6dcae89fe37e2371cc4d7c591e52ea0607",
-				"dweb:/ipfs/QmRrc2ErWhGdzxvtQzjqWudYx55ufhR38oUUzpLuAas9kP"
+				"bzz-raw://7a6b908d3f6307be4e21349221e54f3781cf09570abdfda315463c3521c08982",
+				"dweb:/ipfs/QmU9rXPPGFBaoGNq8vPPDqWJ5smbQe9LQD3LtZqe4nUvtP"
 			]
 		}
 	},

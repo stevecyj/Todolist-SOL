@@ -7,7 +7,11 @@ contract Math {
 //        return x + 1;
 //    }
 
-    function addOne(uint256 x) private pure returns (uint256){
+//    function addOne(uint256 x) private pure returns (uint256){
+//        return x + 1;
+//    }
+
+    function addOne(uint256 x) external pure returns (uint256){
         return x + 1;
     }
 }
