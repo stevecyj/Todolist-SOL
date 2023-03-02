@@ -4,7 +4,15 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [],
+				"name": "giveMeMoney",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -18,7 +26,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Visibility.sol": "Math"
+			"StateMutability.sol": "StateMutability"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -32,12 +40,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Visibility.sol": {
-			"keccak256": "0xab0dcb96530bbc89ac1ca55710c94a9c7a423d4cdda428174e297e59356b2d7e",
+		"StateMutability.sol": {
+			"keccak256": "0x45152a9f2d9b9566dab46d9ae14c00b78893ebeace8b3347b5e213c6974b1aaf",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://09e6d763a12da4fcbeffaaa85bdc3ed3eb89771ca48034161c00ac133f0a2893",
-				"dweb:/ipfs/QmX4BU9jNjokKXXz52F2gnt7cxJAie1Smb53h8BUopU6QZ"
+				"bzz-raw://f7be8e51dc5f6098b5b1a31e16433a93d1efe20ebb8d69ab2ad25bcbb0943946",
+				"dweb:/ipfs/QmQeWUsiBWfnV2wd2dDhKNNBvwLFVeLwDjvjnJCKV4MFbz"
 			]
 		}
 	},

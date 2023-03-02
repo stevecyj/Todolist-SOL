@@ -66,11 +66,11 @@
 	},
 	"sources": {
 		"Visibility.sol": {
-			"keccak256": "0x9d3bed00a84353fa30841a902b8afebc529cb613ac96146c334df685168d8684",
+			"keccak256": "0xab0dcb96530bbc89ac1ca55710c94a9c7a423d4cdda428174e297e59356b2d7e",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://b3197592ba191bb44c11860a08491019358355a35f1c7463426101fdb1a104c9",
-				"dweb:/ipfs/QmWbouuQqTFvHV6eKFtNWjJEzThXubTnBxpqPUMwTHagQW"
+				"bzz-raw://09e6d763a12da4fcbeffaaa85bdc3ed3eb89771ca48034161c00ac133f0a2893",
+				"dweb:/ipfs/QmX4BU9jNjokKXXz52F2gnt7cxJAie1Smb53h8BUopU6QZ"
 			]
 		}
 	},
