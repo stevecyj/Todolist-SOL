@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "countEvenNumbers",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"WhileLoop.sol": "While"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"WhileLoop.sol": {
+			"keccak256": "0xe8f32441fdae7e57b3634868afacc140c78116c3fd317427251734a096e97f46",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://2cafd985d327616f0d73d875df13b7dbfdefa39401c7bd1d93e456f2578e3ec6",
+				"dweb:/ipfs/Qmeab2BLCf8cQ9KUsg8xKyYbhhPE6PDmzNVfMjubkUTxTV"
+			]
+		}
+	},
+	"version": 1
+}
