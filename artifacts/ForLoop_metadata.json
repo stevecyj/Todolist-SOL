@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "countEvenNumbers",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ForLoop.sol": "ForLoop"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ForLoop.sol": {
+			"keccak256": "0x762e536102593883492b8b060da244ea776e0d287d834c017b757fdac6122d7f",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://f593d5b4758a0eacb7937b66bbe9293f2264d5aa8b8f086ffffdd502c6cecdf8",
+				"dweb:/ipfs/QmNvDmZWYsG4Qewuv7GRvhhdjCxAJSQx52Bn7qPQpouVwT"
+			]
+		}
+	},
+	"version": 1
+}
